@@ -1,0 +1,26 @@
+https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
+
+mono
+https://coolors.co/palette/0f3375-13459c-1557c0-196bde-2382f7-4b9cf9-77b6fb-a4cefc-cce4fd-e8f3fe
+
+background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+
+
+#8a8a8a, #797979, #676767, *#434343*, #313131, #1f1f1f, #0d0d0d 7%
+
+
+https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
+
+mono
+https://coolors.co/palette/0f3375-13459c-1557c0-196bde-2382f7-4b9cf9-77b6fb-a4cefc-cce4fd-e8f3fe
+
+new ones to use
+https://10015.io/tools/color-shades-generator
+#94b9f3, #74a4f0, #548fec, #347ae9, #1557c0, #1148a0, #0e3a80, #0a2b5f, #071d3f
+
+background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+
+In current use:
+https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
