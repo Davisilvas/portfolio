@@ -68,9 +68,6 @@ body{
 }
 
 /* HOME SECTION */
-#home-container{
-    margin-top: 50px;
-}
 
 #home {
     box-shadow: .5px 10px 15px rgba(0, 0, 0, .3);
@@ -78,7 +75,6 @@ body{
 
 #desc h1{
     font-size: 2.5rem;
-    /* font-weight: bold; */
 }
 
 #desc p{
@@ -131,7 +127,6 @@ body{
 
 /* ABOUT ME */
 #about{
-    margin-top: 70px;
     box-shadow: .5px 10px 15px rgba(0, 0, 0, .3);
     /* border-radius: 10px; */
 }
@@ -159,9 +154,6 @@ body{
 }
 
 /* TEC SECTION */
-#tecs{
-    margin-top: 70px;
-}
 
 #tecs h2{
     font-size: 1.8rem;
@@ -184,10 +176,6 @@ body{
 }
 
 /* PRJ-CONTAINER */
-#prj-container{
-    margin-top: 70px;
-}
-
 #prj{
     width: 90%;
 }
