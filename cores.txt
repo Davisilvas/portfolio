@@ -24,3 +24,35 @@ background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 
 In current use:
 https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
+
+
+
+
+
+
+
+        <div class="card m-3" id="prj">
+                <img src="./assets/images/agenda.png" class="card-img-top img-fluid"
+                    alt="imagem do projeto agenda em php">
+                <div class="card-body">
+                    <h5 class="card-title">Agenda PHP Project</h5>
+                    <p class="card-text">This is a totally functional agenda built with php. On this project I used
+                        MySql to realize all CRUD functionalities.</p>
+                    <nav>
+                        <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
+                            <li>
+                                <a href="https://github.com/Davisilvas/projetoAgenda" class="" target="_blank">
+                                    <i class="bi bi-box-arrow-up-right m-2"></i>Github
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=EtUGFmFbu2I" class="" target="_blank">
+                                    <i class="bi bi-youtube m-2"></i>Quick view
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>

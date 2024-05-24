@@ -22,16 +22,17 @@
     <title>Davi Santos</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-container" data-bs-offset="0" class="scrollspy-example" tabindex="0" id="body">
+<body data-bs-spy="scroll" data-bs-target="#navbar-container" data-bs-offset="0" class="scrollspy-example" tabindex="0"
+    id="body">
 
-    <nav class="navbar navbar-expand-lg p-2 color-bg-one" id="navbar-container">
+    <nav class="navbar navbar-expand-lg p-2" id="navbar-container">
         <div class="container">
-            <a class="navbar-brand color-one" href="#">Davi Santos</a>
+            <a class="navbar-brand" href="#"><img src="./assets/icons/my-icon.svg" alt="" id="navbar-icon"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
                 aria-controls-="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list"></i>
             </button>
-            <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
+            <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse justify-content-end" id="bottom-navbar">
                 <li class="nav-item">
                     <a href="#about" class="nav-link color-one">About</a>
                 </li>
@@ -45,302 +46,285 @@
                     <a href="#footer-ctt" class="nav-link color-one">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="assets/curriculum/CV_DAVI_SILVA_SANTOS.pdf" download="CV_DAVI_SILVA_SANTOS.pdf" type="application/pdf"class="nav-link color-one">Curriculum</a>
+                    <a href="assets/curriculum/CV_DAVI_SILVA_SANTOS.pdf" download="CV_DAVI_SILVA_SANTOS.pdf"
+                        type="application/pdf" class="nav-link color-one">Curriculum</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container-md mt-5" id="home-container">
-        <div class="row color-bg-two color-two" id="home">
 
-            <div class="col-12
-                        col-lg-7
-                        d-flex
-                        flex-column
-                        align-items-center
-                        justify-content-center
-                        p-3" 
-            id="desc">
-                <h1>Davi Santos</h1>
-                <p>Hi! I'm Davi Santos and I'm a Front-end web developer.</p>
-                <nav class="col-12" id="home-socials">
-                    <ul class="d-flex flex-row justify-content-between list-unstyled" id="socials-links">
-                        <li>
-                            <a href="https://github.com/Davisilvas" class="color-two" target="_blank"><i class="bi bi-github"></i></a>
-                        </li>
-
-                        <li>
-                            <a href="https://www.linkedin.com/in/davisilvasantoss/" class="color-two" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        </li>
-
-                        <li>
-                            <a href="https://www.instagram.com/davi120_/" class="color-two" target="_blank"><i class="bi bi-instagram"></i></a>
-                        </li>
-
-                        <li>
-                            <a href="https://twitter.com/davi__ssd" class="color-two" target="_blank"><i class="bi bi-twitter"></i></a>
-                        </li>
-
-                        <li>
-                            <a href="https://www.facebook.com/davi.santos.509" class="color-two" target="_blank"><i class="bi bi-facebook"></i></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="col-5 d-none d-lg-block" id="blob">
-                <img src="./assets/images/me.png" alt="" class="img-fluid" id="my-photo">
-            </div>
+    <div class="container-fluid col-12 col-md-10 col-lg-8 mt-5 d-flex justify-content-between" id="home-container">
+        <div class="col-6 d-flex flex-column justify-content-center ps-4" id="home-desc">
+            <h2>Hi! I'm </br> Davi Santos</h2>
+            <p>I'm a full-stack web desinger</p>
+            <a href="mailto:contato@davisantos.dev.br" id="navbar-email" class="align-self-start"> Get in touch
+            </a>
+        </div>
+        <div class=" col-6 d-flex justify-content-end" id="my-photo">
+            <img src="./assets/images/profile-icon.png" alt="" id="my-photo">
         </div>
     </div>
 
-    <section class="container-md color-bg-one color-one p-4 mt-5" id="about">
+    <section class="container-fluid  container-lg color-bg-one color-one p-4 mt-5" id="about">
         <div class="row">
             <h3>About Me...</h3>
             <div class="col-12">
                 <p>
-                    Currently I'm focussed on web development and recently I have been dedicating myself to develop my hard skills. Although my knowladge rely mostly on web development I'm open to learn all kinds of technologies and learn about other areas. And Even Though my mother tongue is Portuguese, I have an advanced level of English. 
-                    At the moment I'm looking foward to a project that I can embrace in orther to develop my hard skills and also my soft skills.
+                    Currently I'm focussed on web development and recently I have been dedicating myself to develop
+                    my
+                    hard skills. Although my knowladge rely mostly on web development I'm open to learn all kinds of
+                    technologies and learn about other areas. And Even Though my mother tongue is Portuguese, I have
+                    an
+                    advanced level of English.
+                    At the moment I'm looking foward to a project that I can embrace in orther to develop my hard
+                    skills
+                    and also my soft skills.
                 </p>
             </div>
         </div>
     </section>
-    
-    <section class="container mt-5" id="tecs">
-        <h1>Stacks</h1>
-        <div class="row">
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/html.svg" alt="html icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">HTML</h2>
-                    <p id="tec-desc">Language used to build the structure of the site.
-                    </p>
+    <section class="container mt-5 color-one" id="tecs">
+        <h1 class="mb-4">Stacks</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/html.svg" alt="html icon" class="col-4" id="tec-icon">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/css.svg" alt="css icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">CSS</h2>
-                    <p id="tec-desc">Styling language responsable of giving style to the HTML page.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/css.svg" alt="css icon" class="col-4" id="tec-icon">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/javascript.svg" alt="javascript icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">javascript</h2>
-                    <p id="tec-desc">Programming language used not only on the front end developing but also on the back end.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/javascript.svg" alt="javascript icon" class="col-4 stacks-resize">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/typescript.svg" alt="typescript icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">Typescript</h2>
-                    <p id="tec-desc">Strongly typed programming language that builds on JavaScript, preventing errors during development and adding more functionalities to JavaScript.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/typescript.svg" alt="typescript icon" class="col-4 stacks-resize">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/c-sharp-bigger.svg" alt="C# icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">C#</h2>
-                    <p id="tec-desc">An object-oriented, component-oriented programming language.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/c-sharp.svg" alt="C# icon" class="col-4" id="tec-icon">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/react.svg" alt="React Js icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">React Js</h2>
-                    <p id="tec-desc">JavaScript Library used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/react.svg" alt="React Js icon" class="col-4" id="tec-icon">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/nodeJs.svg" alt="NodeJs icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">node.Js</h2>
-                    <p id="tec-desc">Ambient for JavaScript code execution, used to run JavaScript code on the server side.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/nodeJs.svg" alt="NodeJs icon" class="col-4" id="tec-icon">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/php.svg" alt="php icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">php</h2>
-                    <p id="tec-desc">Programming language that runs server side, capable of making interactions between clients, server and database.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/php.svg" alt="php icon" class="col-4" id="tec-icon">
                 </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/python.svg" alt="python icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">Python</h2>
-                    <p id="tec-desc">Object-oriented programming language that helps with data science, machine learning, scripting automation, and more.<p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/python.svg" alt="python icon" class="col-4" id="tec-icon">
                 </div>
-            </div>
-            
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/database.svg" alt="database icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">MySql</h2>
-                    <p id="tec-desc">Relational database management system</p>
-                </div>
-            </div>
 
-            <div class="col-4 col-md-6 d-flex mb-2">
-                <img src="./assets/icons/tecIcons/git.svg" alt="git icon" class="col-4" id="tec-icon">
-                <div class="d-none d-md-block col-8 m-3">
-                    <h2 id="tec-name">git</h2>
-                    <p id="tec-desc">
-                        Code version control system.</p>
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/database.svg" alt="database icon" class="col-4" id="tec-icon">
+                </div>
+
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/git.svg" alt="git icon" class="col-4" id="tec-icon">
+                </div>
+
+                <div class="col-4 col-md-2 mb-2">
+                    <img src="./assets/icons/tecIcons/java.svg" alt="git icon" class="col-4" id="tec-icon">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container mt-5" id="prj-container">
-        <h2>Projects</h2>
-        <div class="row">
-            <div class="card m-3" id="prj">
-                <img src="./assets/images/destaque.png" class="card-img-top img-fluid" alt="imagem do site da Desentupidora destaque">
-                <div class="card-body">
-                    <h5 class="card-title">Client Desentupidora Destaque</h5>
-                    <p class="card-text">The Desentupidora Destaque trusted on me the mission of rebuild their site and also deal with it's host. The job was delivered and they were happy with the final result.</p>
-                    <nav>
-                        <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
-                            <li>
-                                <a href="https://desentupidoradestaque.com.br" class="" target="_blank">
-                                    <i class="bi bi-box-arrow-up-right m-2"></i>Visit
-                                </a>
-                            </li>
-                        </ul>
-                    </nav> 
+    <div class="container" id="prj-container">
+        <div id="prjCarousel" class="carousel slide mt4 d-flex flex-column">
+            <h2 class="color-one p-3 m-3 align-self-start">Some works & projects</h2>
+            <div class="carousel-inner" ">
+                <div class=" carousel-item active">
+                <div class="card m-3" id="prj">
+                    <img src="./assets/images/destaque.png" class="card-img-top img-fluid"
+                        alt="imagem do site da Desentupidora destaque">
+                    <div class="card-body">
+                        <h5 class="card-title">Client Desentupidora Destaque</h5>
+                        <p class="card-text">The Desentupidora Destaque trusted on me the mission of rebuild their
+                            site
+                            and
+                            also deal with it's host. The job was delivered and they were happy with the final
+                            result.
+                        </p>
+                        <nav>
+                            <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
+                                <li>
+                                    <a href="https://desentupidoradestaque.com.br" class="" target="_blank">
+                                        <i class="bi bi-box-arrow-up-right m-2"></i>Visit
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card m-3" id="prj">
+                    <img src="./assets/images/reactGram.png" class="card-img-top img-fluid"
+                        alt="imagem do projeto mini blog">
+                    <div class="card-body">
+                        <h5 class="card-title">RaeactGram Project</h5>
+                        <p class="card-text">This project is a social network, built with react, that looks like
+                            instagram.
+                            It has a lot of real functionalities that are used on real projects.</p>
+                        <nav>
+                            <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
+                                <li>
+                                    <a href="https://github.com/Davisilvas/ReactGram" class="" target="_blank">
+                                        <i class="bi bi-box-arrow-up-right m-2"></i>Github
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://youtu.be/xX5kFq_ru4k" class="" target="_blank">
+                                        <i class="bi bi-youtube m-2"></i>Quick view
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card m-3" id="prj">
+                    <img src="./assets/images/print_mini_blog.jpeg" class="card-img-top img-fluid"
+                        alt="imagem do projeto mini blog">
+                    <div class="card-body">
+                        <h5 class="card-title">Mini Blog Project</h5>
+                        <p class="card-text">This project is a complete blog where you can sign in, login and
+                            logout,
+                            create
+                            posts and edit them and also consume others posts. The project was developed with
+                            React.Js
+                            and
+                            used Google Firebase as database. </p>
+                        <nav>
+                            <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
+                                <li>
+                                    <a href="https://github.com/Davisilvas/miniblog" class="" target="_blank">
+                                        <i class="bi bi-box-arrow-up-right m-2"></i>Github
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=nXK9V2BEB5w" class="" target="_blank">
+                                        <i class="bi bi-youtube m-2"></i>Quick view
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card m-3" id="prj">
+                    <img src="./assets/images/financialControl.png" class="card-img-top img-fluid"
+                        alt="imagem do projeto financial control">
+                    <div class="card-body">
+                        <h5 class="card-title">Financial Control Project</h5>
+                        <p class="card-text">This is a financial Control page developed with React.Js. On this
+                            project I
+                            could explore very well the concept of using components that the framework offers to us.
+                        </p>
+                        <nav>
+                            <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
+                                <li>
+                                    <a href="https://github.com/Davisilvas/financial_control" class="" target="_blank">
+                                        <i class="bi bi-box-arrow-up-right m-2"></i>Github
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=p-5SxqobOfg" class="" target="_blank">
+                                        <i class="bi bi-youtube m-2"></i>Quick view
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card m-3" id="prj">
+                    <img src="./assets/images/blogCodar.png" class="card-img-top img-fluid"
+                        alt="imagem do projeto blog codar">
+                    <div class="card-body">
+                        <h5 class="card-title">BlogCodar Project</h5>
+                        <p class="card-text">The codar.blog is a project built in order to apply the knowledge of a
+                            PHP
+                            course. On this I used mocked data and templates in order to create dynamic pages to
+                            each
+                            blog's
+                            post.</p>
+                        <nav>
+                            <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
+                                <li>
+                                    <a href="https://github.com/Davisilvas/blog-php" class="" target="_blank">
+                                        <i class="bi bi-box-arrow-up-right m-2"></i>Github
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=nB6GGUL-3AI" class="" target="_blank">
+                                        <i class="bi bi-youtube m-2"></i>Quick view
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card m-3" id="prj">
+                    <img src="./assets/images/agenda.png" class="card-img-top img-fluid"
+                        alt="imagem do projeto agenda em php">
+                    <div class="card-body">
+                        <h5 class="card-title">Agenda PHP Project</h5>
+                        <p class="card-text">This is a totally functional agenda built with php. On this project I
+                            used
+                            MySql to realize all CRUD functionalities.</p>
+                        <nav>
+                            <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
+                                <li>
+                                    <a href="https://github.com/Davisilvas/projetoAgenda" class="" target="_blank">
+                                        <i class="bi bi-box-arrow-up-right m-2"></i>Github
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=EtUGFmFbu2I" class="" target="_blank">
+                                        <i class="bi bi-youtube m-2"></i>Quick view
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
 
-            <div class="card m-3" id="prj">
-                <img src="./assets/images/reactGram.png" class="card-img-top img-fluid" alt="imagem do projeto mini blog">
-                <div class="card-body">
-                    <h5 class="card-title">RaeactGram Project</h5>
-                    <p class="card-text">This project is a social network, built with react, that looks like instagram. It has a lot of real functionalities that are used on real projects.</p>
-                    <nav>
-                        <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
-                            <li>
-                                <a href="https://github.com/Davisilvas/ReactGram" class=""  target="_blank">
-                                    <i class="bi bi-box-arrow-up-right m-2"></i>Github
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="https://youtu.be/xX5kFq_ru4k" class="" target="_blank">
-                                    <i class="bi bi-youtube m-2"></i>Quick view
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            
-            <div class="card m-3" id="prj">
-                <img src="./assets/images/print_mini_blog.jpeg" class="card-img-top img-fluid" alt="imagem do projeto mini blog">
-                <div class="card-body">
-                    <h5 class="card-title">Mini Blog Project</h5>
-                    <p class="card-text">This project is a complete blog where you can sign in, login and logout, create posts and edit them and also consume others posts. The project was developed with React.Js and used Google Firebase as database. </p>
-                    <nav>
-                        <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
-                            <li>
-                                <a href="https://github.com/Davisilvas/miniblog" class="" target="_blank">
-                                    <i class="bi bi-box-arrow-up-right m-2"></i>Github
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.youtube.com/watch?v=nXK9V2BEB5w" class="" target="_blank">
-                                    <i class="bi bi-youtube m-2"></i>Quick view
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="card m-3" id="prj">
-                <img src="./assets/images/financialControl.png" class="card-img-top img-fluid" alt="imagem do projeto financial control">
-                <div class="card-body">
-                    <h5 class="card-title">Financial Control Project</h5>
-                    <p class="card-text">This is a financial Control page developed with React.Js. On this project I could explore very well the concept of using components that the framework offers to us.</p>
-                    <nav>
-                        <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
-                            <li>
-                                <a href="https://github.com/Davisilvas/financial_control" class="" target="_blank">
-                                    <i class="bi bi-box-arrow-up-right m-2"></i>Github
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.youtube.com/watch?v=p-5SxqobOfg" class="" target="_blank">
-                                    <i class="bi bi-youtube m-2"></i>Quick view
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="card m-3" id="prj">
-                <img src="./assets/images/blogCodar.png" class="card-img-top img-fluid" alt="imagem do projeto blog codar">
-                <div class="card-body">
-                    <h5 class="card-title">BlogCodar Project</h5>
-                    <p class="card-text">The codar.blog is a project built in order to apply the knowledge of a PHP course. On this I used mocked data and templates in order to create dynamic pages to each blog's post.</p>
-                    <nav>
-                        <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
-                            <li>
-                                <a href="https://github.com/Davisilvas/blog-php" class="" target="_blank">
-                                    <i class="bi bi-box-arrow-up-right m-2"></i>Github
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.youtube.com/watch?v=nB6GGUL-3AI" class="" target="_blank">
-                                    <i class="bi bi-youtube m-2"></i>Quick view
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="card m-3" id="prj">
-                <img src="./assets/images/agenda.png" class="card-img-top img-fluid" alt="imagem do projeto agenda em php">
-                <div class="card-body">
-                    <h5 class="card-title">Agenda PHP Project</h5>
-                    <p class="card-text">This is a totally functional agenda built with php. On this project I used MySql to realize all CRUD functionalities.</p>
-                    <nav>
-                        <ul class="list-unstyled d-flex justify-content-evenly" id="prj-links">
-                            <li>
-                                <a href="https://github.com/Davisilvas/projetoAgenda" class="" target="_blank">
-                                    <i class="bi bi-box-arrow-up-right m-2"></i>Github
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.youtube.com/watch?v=EtUGFmFbu2I" class="" target="_blank">
-                                    <i class="bi bi-youtube m-2"></i>Quick view
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
         </div>
-    </section>
- 
-    <footer class="container-fluid p-3 mt-5 color-bg-three color-one" id="footer">
+        <button class="carousel-control-prev" type="button" data-bs-target="#prjCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#prjCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+
+    <footer class="container-fluid p-3 mt-5 color-bg-one color-one" id="footer">
         <div class="row">
             <div class="col-12 col-lg-4 footer-column" id="footer-page-links">
                 <h4>sections</h4>
@@ -356,25 +340,26 @@
 
             <div class="row col-12 col-lg-4 footer-column" id="footer-ctt">
                 <h4>Want to get in touch with me?</h4>
-                <ul class="list-unstyled d-flex flex-column align-self-center justify-content-between" id="bottom-animation">
+                <ul class="list-unstyled d-flex flex-column align-self-center justify-content-between"
+                    id="bottom-animation">
                     <li class="p-2">
                         <a href="https://bit.ly/CellphoneNumber-DevDaviSantos" target="_blank">
                             <i class="bi bi-telephone"></i>(24) 993287911
                         </a>
                     </li>
-                    
-                    <li  class="p-2">
+
+                    <li class="p-2">
                         <a href="mailto:contato@davisantos.dev.br" target="_blank">
                             <i class="bi bi-envelope-at-fill"></i>
                             Contato@davisantos.dev.br
                         </a>
                     </li>
-                    
+
                     <li class="p-2">
                         <a href="mailto:daviss.contact@gmail.com" target="_blank">
                             <i class="bi bi-envelope-at-fill"></i>
                             daviss.contact@gmail.com
-        
+
                         </a>
                     </li>
                 </ul>
@@ -383,9 +368,11 @@
             <div class="row col-12 col-lg-4 footer-column justify-content-between" id="footer-socials">
                 <h4>Follow me!</h4>
                 <nav>
-                    <ul class="list-unstyled d-flex flex-row align-items-center justify-content-between" id="bottom-navbar">
+                    <ul class="list-unstyled d-flex flex-row align-items-center justify-content-between"
+                        id="bottom-navbar">
                         <li class="color-one">
-                            <a href="https://www.linkedin.com/in/davisilvasantoss/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/davisilvasantoss/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </li>
 
                         <li class="color-one">
@@ -393,7 +380,8 @@
                         </li>
 
                         <li class="color-one">
-                            <a href="https://www.instagram.com/davi120_/" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.instagram.com/davi120_/" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
                         </li>
 
                         <li class="color-one">
@@ -401,7 +389,8 @@
                         </li>
 
                         <li class="color-one">
-                            <a href="https://www.facebook.com/davi.santos.509" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.facebook.com/davi.santos.509" target="_blank"><i
+                                    class="bi bi-facebook"></i></a>
                         </li>
                     </ul>
                 </nav>
