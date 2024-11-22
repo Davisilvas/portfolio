@@ -7,12 +7,6 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   color: #eceff4;
-
-  // @media (max-width: 1440px){
-  //   div{
-  //     flex-direction: row;
-  //   }
-  // }
 `
 
 export const Wrapper = styled.div`
@@ -31,11 +25,9 @@ export const Wrapper = styled.div`
     }
   }
 
-  //   @media (max-width: 1440px){
-  //   div{
-  //     flex-direction: row;
-  //   }
-  // }
+  @media (max-width: 1280px){
+    flex-direction: column;
+  }
 `
 
 export const TextContainer = styled.div`
@@ -57,7 +49,7 @@ export const TextContainer = styled.div`
   }
 
   @media (max-width: 1440px){
-    h1{
+  h1{
       font-size: 2.4rem;
     }
 

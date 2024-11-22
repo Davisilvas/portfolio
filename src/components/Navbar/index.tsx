@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Menu } from './styled'
+import MobileMenu from '../MobileMenu'
 import logo from '../../assets/icons/my-icon.svg'
 
 const Navbar = () => {
@@ -7,11 +8,12 @@ const Navbar = () => {
     <Container>
       <img src={logo} alt="Logo" />
       <Menu>
-        <ul>
+        {/* <ul>
           <li>about</li>
           <li>Projects</li>
           <li>Contact</li>
-        </ul>
+        </ul> */}
+        <MobileMenu />
       </Menu>
     </Container>
   )
