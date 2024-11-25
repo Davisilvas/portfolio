@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Menu } from './styled'
+import { Container, Menu, LinkList } from './styled'
 import MobileMenu from '../MobileMenu'
 import logo from '../../assets/icons/my-icon.svg'
 
@@ -8,11 +8,11 @@ const Navbar = () => {
     <Container>
       <img src={logo} alt="Logo" />
       <Menu>
-        {/* <ul>
+        <LinkList>
           <li>about</li>
           <li>Projects</li>
           <li>Contact</li>
-        </ul> */}
+        </LinkList>
         <MobileMenu />
       </Menu>
     </Container>

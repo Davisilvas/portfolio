@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
   align-items: center;
 
   img{
-    height: 23rem;
+    height: 29rem;
   }
 
   @media (max-width: 1440px){
@@ -31,7 +31,7 @@ export const Wrapper = styled.div`
 `
 
 export const TextContainer = styled.div`
-  height: 35%; 
+  height: 40%; 
   width: 35%;
   display: flex;
   flex-direction: column;
@@ -39,13 +39,13 @@ export const TextContainer = styled.div`
   justify-content: space-evenly;
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3.9rem;
     font-weight: 400;
   }
 
   span{
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   @media (max-width: 1440px){

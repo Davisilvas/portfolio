@@ -6,6 +6,7 @@ export const Container = styled.div`
 
   @media(max-width: 1440px){
     display: block;
+    top:14px;
   }
 `;
 
@@ -21,8 +22,8 @@ export const Hamburger = styled.div`
   span {
     display: block;
     width: 100%;
-    height: 4px;
-    background-color: #2e3440
+    height: 2px;
+    background-color: #eceff4
 ;
     border-radius: 4px;
     transition: all 0.3s ease-in-out;
@@ -50,7 +51,7 @@ export const MenuOverlay = styled.div`
   right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
   width: 70%;
   height: 100%;
-  background-color: #fff;
+  background-color: #2e3440;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
   transition: right 0.3s ease-in-out;
   z-index: 999;
@@ -60,7 +61,7 @@ export const CloseButton = styled.button`
   background: none;
   border: none;
   font-size: 1.5rem;
-  color: #333;
+  color: #eceff4;
   position: absolute;
   top: 15px;
   right: 15px;
@@ -79,7 +80,7 @@ export const Menu = styled.nav`
 
 export const MenuItem = styled.a`
   text-decoration: none;
-  color: #333;
+  color: #eceff4;
   font-size: 1.2rem;
   margin: 10px 0;
   transition: color 0.2s ease-in-out;

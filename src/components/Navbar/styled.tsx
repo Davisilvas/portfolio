@@ -9,20 +9,35 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
 
-  // background-color: #2e3440;
   color: #eceff4;
 
   img{
     height: 3.5rem;
+  }
+  
+  @media(max-width: 1440px){
+    img{
+      height: 3.3rem;
+    }
+  }
+
+  @media(max-width: 1080px){
+    img{
+      height: 2.8rem;
+    }
   }
 `
 
 export const Menu = styled.nav`
   width: 30%;
   height:100%;
-  // background-color: #ccff00;
 
-  ul{
+  @media(max-width: 1440px){
+    width: 10%;
+  }
+`
+
+export const LinkList = styled.ul`
     width: 95%;
     height: 80%;
     font-size: 1.8rem;
@@ -30,5 +45,8 @@ export const Menu = styled.nav`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  }
+
+    @media(max-width: 1440px){
+      display: none;
+    }
 `
