@@ -10,4 +10,8 @@ export const Container = styled.footer`
 
   background-color: #2e3440;
   color: #eceff4;
+
+  @media(max-width: 768px){
+    flex-direction: column;
+  }
 `
