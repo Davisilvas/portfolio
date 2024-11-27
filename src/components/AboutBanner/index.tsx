@@ -2,7 +2,7 @@ import React from 'react'
 
 import SkillsContainer from '../SkillsContainer'
 
-import { Container, ContentSection, CuriositySection } from './styled'
+import { Container, ContentSection } from './styled'
 
 const AboutBanner = () => {
   return (
@@ -14,12 +14,6 @@ const AboutBanner = () => {
         </p>
       </ContentSection>
       <SkillsContainer />
-      {/* <CuriositySection>
-        <h1>Quando tudo começou...</h1>
-        <p>
-          Desde sempre sou fascinado pela tecnologia, e meu primeiro contato com computadores foi na aula de informática de meu colégio, logo no primeiro ano do fundamental
-        </p>
-      </CuriositySection> */}
     </Container>
   )
 }
