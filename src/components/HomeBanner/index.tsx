@@ -7,11 +7,11 @@ const HomeBanner = () => {
     <Container>
       <Wrapper>
         <TextContainer>
-          <h1>Hi! I'm <br /> Davi Santos</h1>
-          <span>I'm a fullstack web developer</span>
+          <h1>Hi! I'm Davi Santos</h1>
+          <p>I'm a fullstack web developer</p>
           <Btn>Get in touch</Btn>
         </TextContainer>
-          <img src={IMG} alt='profile-pic' />
+        <img src={IMG} alt='profile-pic' />
       </Wrapper>
     </Container>
   )

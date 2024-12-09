@@ -10,9 +10,8 @@ export const Container = styled.div`
 `
 
 export const ContentSection = styled.section`
-  width: 45%;
+  width: 63%;
   padding: 30px;
-  margin-top: -100px;
   background-color: #2e3440;
   border-radius: 3px;
   color: #eceff4;
@@ -46,15 +45,15 @@ export const ContentSection = styled.section`
   }
 
   @media(max-width: 768px){
-    width: 80%;
-
+    width: 85%;
+    
     p{
       font-size: 1rem;
-    }
-  }
-
+      }
+      }
+      
   @media(max-width:480px){
-    width: 100%;
+    width:95%;
 
     h1{
       font-size: 1.7rem;
@@ -66,7 +65,21 @@ export const ContentSection = styled.section`
   }
 `
 
-export const CuriositySection = styled(ContentSection)`
-  margin-bottom: 50px;
+export const SkillsSection = styled.div`
+  width: 55%;
+  color: #eceff4;
+  margin-top: 3.5rem;
+  
+  h1{
+    font-weight: 400;
+  }
+
+  @media(max-width: 768px){
+    width: 80%;
+  }
+
+  @media(max-width: 480px){
+    margin-top: 2rem;
+  }
 `
 

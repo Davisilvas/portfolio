@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 95vh;
-  margin-top: -1.5%;
+  min-height: 100vh;
+  // margin-top: -1.5%;
   display: flex;
   justify-content: center;
   color: #eceff4;
@@ -28,6 +28,16 @@ export const Wrapper = styled.div`
   @media (max-width: 1280px){
     flex-direction: column;
   }
+
+  @media(max-width: 768px){
+    width: 100%;
+    justify-items: space-evenly;
+    img{
+      // height: 20rem;
+      margin-bottom: 80px;
+    }
+  }
+
 `
 
 export const TextContainer = styled.div`
@@ -43,18 +53,41 @@ export const TextContainer = styled.div`
     font-weight: 400;
   }
 
-  span{
+  p{
     font-weight: 300;
     font-size: 1.8rem;
   }
 
   @media (max-width: 1440px){
-  h1{
+    h1{
       font-size: 2.4rem;
     }
 
-    span{
+    p{
       font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 1280px){
+    width: 50%;
+    align-items: center;
+    text-align: center;
+  
+    h1{
+      font-size: 2rem;
+    }
+
+    p{
+      font-size: 1rem;
+    }
+  }
+
+  @media(max-width: 768px){
+    width: 70%;
+    height: 25%;
+  
+    h1{
+      font-size: 1.5rem;
     }
   }
 `
@@ -93,18 +126,5 @@ export const Btn = styled.button`
 
   &:hover {
     color: #000;
-  }
-`
-
-export const ImgContainer = styled.div`
-  
-  img{
-      height: 23rem;
-    }
-
-  @media (max-width: 1440px){
-    img{
-      height: 17rem;
-    }
   }
 `
