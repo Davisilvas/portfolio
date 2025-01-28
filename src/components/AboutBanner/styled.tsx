@@ -21,14 +21,14 @@ export const ContentSection = styled.section`
   align-items: start;
 
   h1{
-    font-weight: 400;
-    font-size: 2.3rem;
+    font-weight: 500;
+    font-size: 2.5rem;
   }
   
   p{
     font-weight: 300;
     margin-top: 10px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   @media(max-width: 1440px){
@@ -38,9 +38,9 @@ export const ContentSection = styled.section`
     h1{
       font-size: 2.0rem;
     }
-  
+
     p{
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 
@@ -50,7 +50,11 @@ export const ContentSection = styled.section`
     p{
       font-size: 1rem;
       }
-      }
+
+    p{
+      font-size: .9rem;
+    }
+  }
       
   @media(max-width:480px){
     width:95%;
