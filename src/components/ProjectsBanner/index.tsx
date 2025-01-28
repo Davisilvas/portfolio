@@ -10,7 +10,7 @@ const ProjectsBanner = () => {
       <CardsContainer>
         {images.map((item) =>{
           return(
-            <Card imgSrc={item.imageLink} title={item.title} />
+            <Card imgSrc={item.imageLink} title={item.title} desc={item.Description}/>
           )
         })}
       </CardsContainer>

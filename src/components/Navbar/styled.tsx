@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Link } from 'react-router';
+
 
 export const Container = styled.div`
   width: 100%;
@@ -49,4 +51,13 @@ export const LinkList = styled.ul`
     @media(max-width: 1440px){
       display: none;
     }
+`
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: #eceff4;
+
+  &:hover{
+    color: #d8dee9;
+  }
 `

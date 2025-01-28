@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Hamburger, MenuOverlay, CloseButton, Menu, MenuItem } from './styled';
-import { Link } from 'react-router';
+import { Container, Hamburger, MenuOverlay, CloseButton, Menu, MenuItem, StyledLink } from './styled';
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +17,9 @@ const MobileMenu = () => {
       <MenuOverlay isOpen={isOpen}>
         <CloseButton onClick={closeMenu}>&times;</CloseButton>
         <Menu>
-          <MenuItem onClick={closeMenu}><Link to="/">Home</Link></MenuItem>
-          <MenuItem onClick={closeMenu}><Link to="/about">Sobre</Link></MenuItem>
-          <MenuItem onClick={closeMenu}><Link to="/projects">Projetos</Link></MenuItem>
+          <MenuItem onClick={closeMenu}><StyledLink to="/">Home</StyledLink></MenuItem>
+          <MenuItem onClick={closeMenu}><StyledLink to="/about">Sobre</StyledLink></MenuItem>
+          <MenuItem onClick={closeMenu}><StyledLink to="/projects">Projetos</StyledLink></MenuItem>
           <MenuItem href="#contact" onClick={closeMenu}>Contact</MenuItem>
         </Menu>
       </MenuOverlay>

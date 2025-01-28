@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Container>
       <p>Developed By Davi Santos</p>
-      <p>daviss.contact@gmail.com</p>
+      <a href='mailto:daviss.contact@gmail.com'>daviss.contact@gmail.com</a>
     </Container>
   )
 }

@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { Link } from 'react-router';
+
 
 export const Container = styled.div`
   position: relative;
@@ -89,3 +91,12 @@ export const MenuItem = styled.a`
     color: #007bff;
   }
 `;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: #eceff4;
+
+  &:hover{
+    color: #d8dee9;
+  }
+`

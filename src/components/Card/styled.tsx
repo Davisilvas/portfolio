@@ -69,6 +69,7 @@ export const TextContainer = styled.div`
     font-weight: 500;
   }
   p{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding-left: 5px;
   }
 `

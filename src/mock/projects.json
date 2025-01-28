@@ -3,36 +3,36 @@
     "id": 1,
     "imageLink": "https://i.postimg.cc/1z1fTnQn/destaque.png",
     "title": "Desentupidora Destaque",
-    "Description": "Serviço prestado à Desentupidora Destaque"
+    "Description": "Serviço prestado à Desentupidora Destaque. Neste serviço entreguei ao cliente o site seguindo suas demandas bem como arrumando a sua hospedagem. Com o novo site, o cliente relatou um aumento no número de clientes mostrando satisfação com o serviço."
   },
   {
     "id": 2,
     "imageLink": "https://i.postimg.cc/rppxgRC1/react-Gram.png",
     "title": "Projeto ReactGram",
-    "Description": "Serviço prestado à Desentupidora Destaque"
+    "Description": "Este projeto é uma rede social que clona algumas das funções do Instagram. O projeto foi feito com React Js e Node Js."
   },
   {
     "id": 3,
-    "imageLink": "https://i.postimg.cc/rppxgRC1/react-Gram.png",
-    "title": "Projeto ReactGram",
-    "Description": "Serviço prestado à Desentupidora Destaque"
+    "imageLink": "https://i.postimg.cc/vHfrygTB/print-mini-blog.jpg",
+    "title": "Projeto Mini Blog",
+    "Description": "Este projeto trata-se de um blogo feito em PHP onde você pode tanto consumir posts quanto criar os seus próprios."
   },
   {
     "id": 4,
-    "imageLink": "https://i.postimg.cc/rppxgRC1/react-Gram.png",
-    "title": "Projeto ReactGram",
-    "Description": "Serviço prestado à Desentupidora Destaque"
+    "imageLink": "https://i.postimg.cc/zf5p6wk8/financial-Control.png",
+    "title": "Projeto Financial Control",
+    "Description": "Projeto feito em React para explorar a biblioteca no começo do aprendizado!"
   },
   {
     "id": 5,
-    "imageLink": "https://i.postimg.cc/rppxgRC1/react-Gram.png",
-    "title": "Projeto ReactGram",
-    "Description": "Serviço prestado à Desentupidora Destaque"
+    "imageLink": "https://i.postimg.cc/3RfBksQx/blog-Codar.png",
+    "title": "Projeto Blog Codar",
+    "Description": "O Codar.blog é um projeto que foi desenvolvido para aprender a linguagem PHP. Neste projeto uso dados 'mocados' para simular páginas dinâmicas."
   },
   {
     "id": 6,
-    "imageLink": "https://i.postimg.cc/rppxgRC1/react-Gram.png",
-    "title": "Projeto ReactGram",
-    "Description": "Serviço prestado à Desentupidora Destaque"
+    "imageLink": "https://i.postimg.cc/3r61YQZL/agenda.png",
+    "title": "Projeto Agenda PHP",
+    "Description": "Este projeto trata-se de uma agenda online feita em php. Neste projeto estudei o CRUD usando o mysql e php."
   }
 ]

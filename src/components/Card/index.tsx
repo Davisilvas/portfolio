@@ -5,9 +5,10 @@ import { CardContainer, MenuContainer, MenuBtnOne, MenuBtnTwo, MenuBtnThree,Imag
 interface CardProps{
   imgSrc: string;
   title: string;
+  desc: string;
 }
 
-const Card: React.FC<CardProps> = ({imgSrc, title}) => {
+const Card: React.FC<CardProps> = ({imgSrc, title, desc}) => {
   return (
     <CardContainer>
       <MenuContainer>
@@ -22,7 +23,7 @@ const Card: React.FC<CardProps> = ({imgSrc, title}) => {
         <h1 className='text-container-title'>
         {title}
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima expedita fugit enim atque repellat aperiam maiores molestias exercitationem unde corrupti quas illo excepturi voluptatibus ratione, sed esse ducimus quis commodi!</p>
+        <p>{desc}</p>
       </TextContainer>
     </CardContainer>
   )
